@@ -247,7 +247,7 @@ export const CodeGenerator = () => {
                       const parsed = parseUserInput(prompt);
                       if (!parsed.component) {
                         setDbComponentError(
-                          "Could not understand your request. Try describing the UI component more clearly."
+                          "This Component will be avaiable in the future please try another component."
                         );
                         setLoading(false);
                         return;
