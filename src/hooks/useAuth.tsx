@@ -61,7 +61,6 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       throw new Error("User data not returned after sign-up");
     }
 
-    // Insert into profiles table, now allowed by RLS policy
     const { error: profileError } = await supabase.from("profiles").upsert(
       {
         id: data.user.id,

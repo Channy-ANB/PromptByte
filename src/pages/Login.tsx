@@ -36,9 +36,8 @@ export default function Login() {
       }
     } catch (err: any) {
       toast({
-        title: "Waiting for Confirmation",
-        description:
-          "We've sent you a confirmation link to activate your account.",
+        title: "Signed Up",
+        description: "Account created and logged in.",
       });
     } finally {
       setSubmitting(false);

@@ -4,6 +4,13 @@
 
 PromptByte generates **production-ready, responsive, and accessible UI components** from simple English descriptions, removing repetitive coding and enabling developers to focus on unique functionality.
 
+**PromptByte 1.0** : Function Generator (LLM model)
+
+**PromptByte 2.0** : UI Component Generator (Rule-Based model)
+
+- Supports common UI components: login, cards, header, footer, sidebar, etc.
+- Enforces accessibility and responsive design best practices.
+
 ---
 
 ## Core Features
@@ -49,7 +56,7 @@ PromptByte generates **production-ready, responsive, and accessible UI component
 
 ### Installation
 
-- git clone https://github.com/ChannyScript-Kiddie/PromptByte.git
+- git clone https://github.com/Channy-ANB/PromptByte
 - cd PromptByte
 - npm install
 - npm run dev
